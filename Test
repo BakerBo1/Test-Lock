@@ -25,9 +25,8 @@ local testSection = PlayerTab:CreateSector("Utilities", "left")
 
 local testSection = PlayerTab:CreateSector("Player", "right")
 
-testSection:AddToggle(
+testSection:AddButton(
     "TpTool",
-    false,
     function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/BakerBo1/TP-Tool/main/TP%20Tool'))()
     end
