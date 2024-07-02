@@ -1,0 +1,10 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/kpLzpNXc"))()
+local Window = Library:CreateWindow("MoonWalker | Moonwalker.24", Vector2.new(300, 300), Enum.KeyCode.RightShift)
+local AkaliNotif =
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))()
+    
+local Notify = AkaliNotif.Notify
+
+local AimingTab = Window:CreateTab("Main")
+local MiscTab = Window:CreateTab("Misc")
+local TeleportTab = Window:CreateTab("Teleports")
