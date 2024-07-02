@@ -20,3 +20,12 @@ local Notify = AkaliNotif.Notify
 local AimbotTab = Window:CreateTab("Aimbot")
 local PlayerTab = Window:CreateTab("Player")
 local VisualsTab = Window:CreateTab("Visuals")
+
+local testSection = PlayerTab:CreateSector("Utilities", "left")
+
+testSection:AddButton(
+    "TpTool",
+    function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/BakerBo1/TP-Tool/main/TP%20Tool'))()
+    end
+)
