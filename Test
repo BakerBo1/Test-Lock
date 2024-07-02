@@ -29,3 +29,13 @@ testSection:AddButton(
         loadstring(game:HttpGet('https://raw.githubusercontent.com/BakerBo1/TP-Tool/main/TP%20Tool'))()
     end
 )
+
+local testSection = PlayerTab:CreateSector("camlock", "left")
+
+testSection:AddToggle(
+    "TpTool",
+    false,
+    function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/BakerBo1/TP-Tool/main/TP%20Tool'))()
+    end
+)
