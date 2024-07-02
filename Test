@@ -17,6 +17,6 @@ local AkaliNotif =
     
 local Notify = AkaliNotif.Notify
 
-local AimingTab = Window:CreateTab("Aimbot")
-local MiscTab = Window:CreateTab("Player")
-local TeleportTab = Window:CreateTab("Visuals")
+local AimbotTab = Window:CreateTab("Aimbot")
+local PlayerTab = Window:CreateTab("Player")
+local VisualsTab = Window:CreateTab("Visuals")
