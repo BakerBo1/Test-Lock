@@ -78,4 +78,19 @@ end)
 testSection:AddButton("Main Food", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-338.352173, 23.6826477, -297.2146, -0.0060598203, -1.03402984e-08, -0.999981582, -1.61653102e-09, 1, -1.03306892e-08, 0.999981582, 1.55389912e-09, -0.0060598203)
 end)
-    
+
+
+testSection:AddButton(
+    "TpTool",
+    function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/BakerBo1/TP-Tool/main/TP%20Tool'))()
+    end)
+
+local testSection = AimbotTab:CreateSector("Camlock", "left")
+
+testSection:AddToggle(
+    "Camlock",
+    function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/BakerBo1/Lock/main/lock'))()
+    end
+)
